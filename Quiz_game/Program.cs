@@ -1,5 +1,5 @@
 ﻿string? Name;
-char?  answer = null;
+string? answer = null;
 bool validity_flag = false;
 int point = 0;
 
@@ -12,8 +12,8 @@ Console.WriteLine("Answer options:");
 Console.WriteLine("А:Russia");
 Console.WriteLine("B:Ukraine");
 Console.WriteLine("C:Belarus");
-answer = Convert.ToChar(Console.ReadLine());
-if (answer == 'B' || answer == 'b') 
+answer = Console.ReadLine();
+if (answer == "Ukraine" || answer == "ukraine") 
 {
     Console.WriteLine("Correctly!"); 
     validity_flag = true; 
@@ -29,8 +29,8 @@ Console.WriteLine("Answer options:");
 Console.WriteLine("А:Russia");
 Console.WriteLine("B:Ukraine");
 Console.WriteLine("C:Belarus");
-answer = Convert.ToChar(Console.ReadLine());
-if (answer == 'A' || answer == 'a') 
+answer = Console.ReadLine();
+if (answer == "Russia" || answer == "russia") 
 { 
     Console.WriteLine("Correctly!"); 
     validity_flag = true; 
@@ -46,8 +46,8 @@ Console.WriteLine("Answer options:");
 Console.WriteLine("А:Russia");
 Console.WriteLine("B:Ukraine");
 Console.WriteLine("C:Belarus");
-answer = Convert.ToChar(Console.ReadLine());
-if (answer == 'C' || answer == 'c') 
+answer = Console.ReadLine();
+if (answer == "Belarus" || answer == "belarus") 
 { 
     Console.WriteLine("Correctly!"); 
     validity_flag = true; 

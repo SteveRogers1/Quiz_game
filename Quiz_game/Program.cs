@@ -19,8 +19,9 @@ if (answer == 'B' || answer == 'b')
     validity_flag = true; 
     point++; 
 }
-else Console.WriteLine("Wrong answer!"); 
-validity_flag = false;
+else 
+    Console.WriteLine("Wrong answer!"); 
+    validity_flag = false;
 
 Console.WriteLine("Second question!");
 Console.WriteLine("Whose national dish is cabbage soup?");
@@ -35,8 +36,9 @@ if (answer == 'A' || answer == 'a')
     validity_flag = true; 
     point++; 
 }
-else Console.WriteLine("Wrong answer!"); 
-validity_flag = false;
+else 
+    Console.WriteLine("Wrong answer!"); 
+    validity_flag = false;
 
 Console.WriteLine("Third question!");
 Console.WriteLine("Whose national dish is Draniki?");
@@ -51,11 +53,13 @@ if (answer == 'C' || answer == 'c')
     validity_flag = true; 
     point++; 
 }
-else Console.WriteLine("Wrong answer!"); 
-validity_flag = false;
+else 
+    Console.WriteLine("Wrong answer!"); 
+    validity_flag = false;
 
 if (point == 3) 
 { 
     Console.WriteLine("Congratulations on the victory! "+ Name); 
 }
-else Console.WriteLine("Sorry you are dumb, close the game! "+ Name);
+else 
+    Console.WriteLine("Sorry you are dumb, close the game! "+ Name);
